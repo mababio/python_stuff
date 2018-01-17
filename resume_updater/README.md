@@ -11,8 +11,8 @@ Tech stack:
 [Installation]
 
 - Make sure you have your S3 config file setup https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html
-- git clone https://github.com/mababio/python_stuff.git
+- ``` git clone https://github.com/mababio/python_stuff.git ```
 - Navigate to resume_updater directory
-- python3 setup.py install
-- pip3 install https://github.com/joh/when-changed/archive/master.zip
-- Run this when-changed [FILE_Trigger] -c 'resume_updater [FILE_TO_Upload]' &
+- ``` python3 setup.py install ```
+- ``` pip3 install https://github.com/joh/when-changed/archive/master.zip ```
+- Run this  ``` when-changed [FILE_Trigger] -c 'resume_updater [FILE_TO_Upload]' & ```
