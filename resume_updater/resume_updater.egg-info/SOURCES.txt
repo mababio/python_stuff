@@ -1,0 +1,10 @@
+README.md
+setup.py
+resume_updater/S3Copy.py
+resume_updater/__init__.py
+resume_updater.egg-info/PKG-INFO
+resume_updater.egg-info/SOURCES.txt
+resume_updater.egg-info/dependency_links.txt
+resume_updater.egg-info/entry_points.txt
+resume_updater.egg-info/requires.txt
+resume_updater.egg-info/top_level.txt

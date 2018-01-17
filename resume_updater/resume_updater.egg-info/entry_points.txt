@@ -1,0 +1,3 @@
+[console_scripts]
+resume_updater = resume_updater.S3Copy:main
+

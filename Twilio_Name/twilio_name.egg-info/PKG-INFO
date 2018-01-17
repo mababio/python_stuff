@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: twilio-name
+Version: 1.0
+Summary: provide phone number and get name assoicated with it.
+Home-page: UNKNOWN
+Author: Michael Ababio
+Author-email: michaelkwasi@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0

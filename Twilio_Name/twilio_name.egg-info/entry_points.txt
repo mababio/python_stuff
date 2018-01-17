@@ -1,0 +1,3 @@
+[console_scripts]
+twil_num = twilio_name.twilio_helper:main
+
