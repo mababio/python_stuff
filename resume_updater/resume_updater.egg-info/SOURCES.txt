@@ -1,10 +1,17 @@
+MANIFEST.in
 README.md
 setup.py
+config/__init__.py
+config/config.ini
+config/config.py
+notify/__init__.py
+notify/noti.py
 resume_updater/S3Copy.py
 resume_updater/__init__.py
 resume_updater.egg-info/PKG-INFO
 resume_updater.egg-info/SOURCES.txt
 resume_updater.egg-info/dependency_links.txt
 resume_updater.egg-info/entry_points.txt
+resume_updater.egg-info/not-zip-safe
 resume_updater.egg-info/requires.txt
 resume_updater.egg-info/top_level.txt
