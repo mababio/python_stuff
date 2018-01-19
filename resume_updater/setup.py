@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(name='resume_updater',
-      version='0.1',
+      version='0.0.2',
       description='Uploads file to aws S3 service.',
       author='Michael Ababio',
       author_email='michaelkwasi@gmail.com',
