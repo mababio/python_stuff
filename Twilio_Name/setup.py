@@ -8,5 +8,11 @@ setup(name='twilio_name',
       install_requires=['twilio'],
       python_requires=">=3.0",
       entry_points = {'console_scripts': ['twil_num=twilio_name.twilio_helper:main']},
-      packages=['twilio_name'],
+      package_data={
+        # If any package contains *.txt or *.rst files, include them:
+        '': ['*.ini'],
+        # And include any *.msg files found in the 'hello' package, too:
+        'hello': ['*.msg'],
+     },
+     packages=['twilio_name'],
      )
