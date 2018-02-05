@@ -5,5 +5,5 @@ I'll be devoting my time to solely Python and Devopsy stuff and I figured along 
 
 What tools I created so far:
 
-- Auomated Amazon S3 file uploader.
-- Caller-ID using twilio look-up feature
+- [Auomated Amazon S3 file uploader](https://github.com/mababio/python_stuff/tree/master/resume_updater)
+- [Caller-ID using twilio look-up feature](https://github.com/mababio/python_stuff/tree/master/Twilio_Name)
