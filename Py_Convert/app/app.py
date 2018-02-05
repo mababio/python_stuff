@@ -1,3 +1,14 @@
+'''
+author: Michael
+email: michaelkwasi@gmail.com
+website: ababio.me
+
+purpose: video conerter. Converts videos to web appropriate formats(.mp4, ..etc)
+How: Grab video and have a docker container do the conversion and report back when it's done.
+send text or email when the conversion is done.
+
+'''
+
 import argparse
 import os
 import sys
