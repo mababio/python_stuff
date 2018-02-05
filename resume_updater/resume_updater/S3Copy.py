@@ -9,11 +9,13 @@ from config import config
 def upload_to_s3(file):
     s3 = boto3.resource('s3')
     obj = s3.Object('mababio', 'resume.pdf')
-#    try:
+    bucket_name =  obj.bucket_name
+    key =  obj.key
+    url= 'https://'+bucket_name+'.s3.amazonaws.com/'+key
+
     obj.put(Body=open(file, 'rb'), ContentType='application/pdf', ACL='public-read')
-    noti.sms("Resume was Updated.\n" +"url")
-    # except StandardError:
-    #     print("Unable to upload file")
+    noti.sms("Resume was Updated.\n" +url)
+
 
 def main():
         parser =  argparse.ArgumentParser()
@@ -23,4 +25,3 @@ def main():
 
 if __name__ =="__main__":
     main()
-        
