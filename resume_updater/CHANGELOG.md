@@ -6,6 +6,6 @@ All notable changes to this project will be documented in this file.
 - text notification when file is pushed to aws bucket.
 
 
-## [0.0.3] - 2018-01-19
+## [0.0.3] - 2018-02-5
 ### Added
 - file url to text notification.
