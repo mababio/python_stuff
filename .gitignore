@@ -1,1 +1,4 @@
-Twilio_Name/config/
+Twilio_Name/build/
+resume_updater/build/
+Twilio_Name/dist/
+resume_updater/dist/
