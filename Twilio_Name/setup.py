@@ -14,5 +14,5 @@ setup(name='twilio_name',
         # And include any *.msg files found in the 'hello' package, too:
         'hello': ['*.msg'],
      },
-     packages=['twilio_name'],
+     packages=['twilio_name','config'],
      )
