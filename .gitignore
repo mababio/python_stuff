@@ -3,4 +3,5 @@ resume_updater/build/
 Twilio_Name/dist/
 resume_updater/dist/
 resume_updater/config/config.py
+resume_updater/config/config.ini
 
