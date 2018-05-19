@@ -7,7 +7,5 @@ config = configparser.ConfigParser()
 config.read(config_path + '/config.ini')
 
 
-phone_num_to = config['TWILIO']['phone_num_to'].strip("''")
-phone_num_from = config['TWILIO']['phone_num_from'].strip("'")
-account_sid = config['TWILIO']['account_sid'].strip("'")
-auth_token = config['TWILIO']['auth_token'].strip("'")
+aws_access_key_id = config['TWILIO']['aws_access_key_id'].strip("''")
+aws_secret_access_key = config['TWILIO']['aws_secret_access_key'].strip("'")
